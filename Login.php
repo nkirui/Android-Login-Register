@@ -1,6 +1,6 @@
 <?php
    ini_set('display_errors', 'On');
-   $con = mysqli_connect("localhost", "root", "monkey567", "REGISTRATION");
+   $con = mysqli_connect("localhost", "root", "password", "database");
     
 if(isset($_POST["username"]) && isset($_POST["password"]))
 {
